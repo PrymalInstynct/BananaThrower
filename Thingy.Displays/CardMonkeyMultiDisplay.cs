@@ -12,7 +12,7 @@ public class CardMonkeyMultiDisplay : ModTowerDisplay<BananaThrower>
 {
 	private readonly int[] t = null;
 
-	public override string Name => "CardMonkeyMultiDisplay-" + ArrayExt.Printed(t);
+	public override string Name => t == null ? "CardMonkeyMultiDisplay" : "CardMonkeyMultiDisplay-" + ArrayExt.Printed(t);
 
 	public override string BaseDisplay => GetDisplay(TowerType.BoomerangMonkey, t[0], t[1], t[2]);
 
