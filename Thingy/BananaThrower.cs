@@ -52,6 +52,6 @@ public class BananaThrower : ModTower
 
 	public override bool IsValidCrosspath(int[] tiers)
 	{
-		return ModHelper.HasMod("UltimateCrosspathing") || ((ModTower)this).IsValidCrosspath(tiers);
+		return ModHelper.HasMod("UltimateCrosspathing") || base.IsValidCrosspath(tiers);
 	}
 }
