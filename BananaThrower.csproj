@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>BananaThrower</AssemblyName>
+    <RootNamespace />
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <Import Project="..\btd6.targets" />
+  <ItemGroup>
+    <EmbeddedResource Update="CardMonkey.Displays.CardMonkeyBaseDisplay.png" LogicalName="CardMonkey.Displays.CardMonkeyBaseDisplay.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.CardMonkeyBaseDisplay_31.png" LogicalName="CardMonkey.Displays.CardMonkeyBaseDisplay_31.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.CardMonkeyBaseDisplay_35.png" LogicalName="CardMonkey.Displays.CardMonkeyBaseDisplay_35.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.CardMonkeyBaseDisplay_36.png" LogicalName="CardMonkey.Displays.CardMonkeyBaseDisplay_36.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.CardMonkeyParagonDisplay.png" LogicalName="CardMonkey.Displays.CardMonkeyParagonDisplay.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.Projectiles.AceOfSpadesCardDisplay.png" LogicalName="CardMonkey.Displays.Projectiles.AceOfSpadesCardDisplay.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.Projectiles.BlueCardDisplay.png" LogicalName="CardMonkey.Displays.Projectiles.BlueCardDisplay.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.Projectiles.BlueWildCardDisplay.png" LogicalName="CardMonkey.Displays.Projectiles.BlueWildCardDisplay.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.Projectiles.GoldCardDisplay.png" LogicalName="CardMonkey.Displays.Projectiles.GoldCardDisplay.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.Projectiles.GoldWildCardDisplay.png" LogicalName="CardMonkey.Displays.Projectiles.GoldWildCardDisplay.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.Projectiles.RedCardDisplay.png" LogicalName="CardMonkey.Displays.Projectiles.RedCardDisplay.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.Projectiles.RedWildCardDisplay.png" LogicalName="CardMonkey.Displays.Projectiles.RedWildCardDisplay.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.Projectiles.WildAceCardDisplay.png" LogicalName="CardMonkey.Displays.Projectiles.WildAceCardDisplay.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.Tier5.AceOfSpadesCape.png" LogicalName="CardMonkey.Displays.Tier5.AceOfSpadesCape.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.Tier5.AceOfSpadesDisplay.png" LogicalName="CardMonkey.Displays.Tier5.AceOfSpadesDisplay.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.Tier5.RoyalFlushDisplay.png" LogicalName="CardMonkey.Displays.Tier5.RoyalFlushDisplay.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.Tier5.RoyalFlushDisplay_32.png" LogicalName="CardMonkey.Displays.Tier5.RoyalFlushDisplay_32.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.Tier5.TFDisplay.png" LogicalName="CardMonkey.Displays.Tier5.TFDisplay.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.Tier5.TFDisplay_33.png" LogicalName="CardMonkey.Displays.Tier5.TFDisplay_33.png" />
+    <EmbeddedResource Update="CardMonkey.Displays.Tier5.TFDisplay_35.png" LogicalName="CardMonkey.Displays.Tier5.TFDisplay_35.png" />
+    <EmbeddedResource Update="CardMonkey.Thingy-icon-.png" LogicalName="CardMonkey.Thingy-icon,.png" />
+    <EmbeddedResource Update="CardMonkey.Thingy-portrait.png" LogicalName="CardMonkey.Thingy-portrait.png" />
+    <EmbeddedResource Update="CardMonkey.Thingy1.png" LogicalName="CardMonkey.Thingy1.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.BottomPath.BananaEyes-icon.png" LogicalName="CardMonkey.Upgrades.BottomPath.BananaEyes-icon.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.BottomPath.BananaEyes-portrait.png" LogicalName="CardMonkey.Upgrades.BottomPath.BananaEyes-portrait.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.BottomPath.CamoDart-Icon.png" LogicalName="CardMonkey.Upgrades.BottomPath.CamoDart-Icon.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.BottomPath.FieryBanana-icon.png" LogicalName="CardMonkey.Upgrades.BottomPath.FieryBanana-icon.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.BottomPath.LeadDart-Icon.png" LogicalName="CardMonkey.Upgrades.BottomPath.LeadDart-Icon.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.BottomPath.MoreRange-icon-.png" LogicalName="CardMonkey.Upgrades.BottomPath.MoreRange-icon,.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.GodKingOfSpades-Icon.png" LogicalName="CardMonkey.Upgrades.GodKingOfSpades-Icon.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.GodKingOfSpades-Portrait.png" LogicalName="CardMonkey.Upgrades.GodKingOfSpades-Portrait.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.MiddlePath.BlueBanana-icon.png" LogicalName="CardMonkey.Upgrades.MiddlePath.BlueBanana-icon.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.MiddlePath.EvenStrongerBanana-icon.png" LogicalName="CardMonkey.Upgrades.MiddlePath.EvenStrongerBanana-icon.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.MiddlePath.ExplodingBanana-icon.png" LogicalName="CardMonkey.Upgrades.MiddlePath.ExplodingBanana-icon.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.MiddlePath.GreenBanana-icon.png" LogicalName="CardMonkey.Upgrades.MiddlePath.GreenBanana-icon.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.MiddlePath.StrongerBanana-icon.png" LogicalName="CardMonkey.Upgrades.MiddlePath.StrongerBanana-icon.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.TopPath.EvenFasterThorwing-icon-.png" LogicalName="CardMonkey.Upgrades.TopPath.EvenFasterThorwing-icon,.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.TopPath.EvenMoreSpeedyDart-icon-.png" LogicalName="CardMonkey.Upgrades.TopPath.EvenMoreSpeedyDart-icon,.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.TopPath.FasterThrowing-icon-.png" LogicalName="CardMonkey.Upgrades.TopPath.FasterThrowing-icon,.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.TopPath.Pair-Icon.png" LogicalName="CardMonkey.Upgrades.TopPath.Pair-Icon.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.TopPath.Pair-Portrait.png" LogicalName="CardMonkey.Upgrades.TopPath.Pair-Portrait.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.TopPath.SonicDart-icon-.png" LogicalName="CardMonkey.Upgrades.TopPath.SonicDart-icon,.png" />
+    <EmbeddedResource Update="CardMonkey.Upgrades.TopPath.SpeedyDart-icon-.png" LogicalName="CardMonkey.Upgrades.TopPath.SpeedyDart-icon,.png" />
+  </ItemGroup>
+</Project>
